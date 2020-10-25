@@ -1,11 +1,11 @@
 import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
-#%matplotlib inline
-advert = pd.read_csv('/kaggle/input/advertising-dataset/advertising.csv')
+%matplotlib inline
+advert = pd.read_csv('D:/CODING/Python/Project 1/advertising.csv')
 advert.head()
 advert.info()
-advert.columns()
+advert.columns
 import seaborn as sns
 sns.distplot(advert.Sales)
 sns.distplot(advert.Newspaper)
