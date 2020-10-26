@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
 %matplotlib inline
-advert = pd.read_csv('D:/CODING/Python/Project 1/advertising.csv')
+advert = pd.read_csv('https://github.com/ShadowMonarch99/DataScienceProjects/raw/main/Project%201/advertising.csv')
 advert.head()
 advert.info()
 advert.columns
