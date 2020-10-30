@@ -2,7 +2,7 @@
 """
 Created on Fri Oct 30 02:15:21 2020
 
-@author: HP
+@author: Apoorv
 """
 
 import pyautogui
